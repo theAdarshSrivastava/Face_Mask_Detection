@@ -7,9 +7,13 @@ The dataset used has 2 classes each with images of people with and without a mas
 The dataset maybe accessed <a href = "https://drive.google.com/drive/folders/1MaU49YgSFBqGbMVImh6k6f__q-_mowck?usp=sharing">here</a>.
 
 ## Model Architecture
-<img src = "assets/model.png">
+<img src = "assets/model.png" height = 600px width = 400px>
+
+The model in .h5 format may be downloaded from <a href = "https://drive.google.com/file/d/161FyMUewCUbKtiBaMTc87oGY7qtPRMYp/view?usp=sharing">here</a>.
 
 ## Usage
+Please download the trained <a href = "https://drive.google.com/drive/folders/1MaU49YgSFBqGbMVImh6k6f__q-_mowck?usp=sharing">model</a> and move it to a directory names *models*. Please ensure that the path to model is *"models/model.h5"*.
+
 - Cloning the Repository: 
 
         git clone https://github.com/theAdarshSrivastava/Face_Mask_Detection
