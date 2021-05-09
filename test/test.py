@@ -1,7 +1,7 @@
 import cv2
 from tensorflow import keras
 
-model = keras.models.load_model('models/model.h5')
+model = keras.models.load_model('/models/model.h5')
 
 labels_dict={0:'with_mask',1:'without_mask'}
 color_dict={0:(0,255,0),1:(0,0,255)}
@@ -9,7 +9,7 @@ size = 4
 webcam=cv2.VideoCapture(0) #Use camera 0
 
 # We load the xml file
-classifier = cv2.CascadeClassifier('/media/adarshsrivastava/DATA/Face_mask/haarcascade_frontalface_default.xml')
+classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 while True:
     (rval, im) = webcam.read()
