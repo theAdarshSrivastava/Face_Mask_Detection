@@ -6,6 +6,9 @@ The dataset used has 2 classes each with images of people with and without a mas
 
 The dataset maybe accessed <a href = "https://drive.google.com/drive/folders/1MaU49YgSFBqGbMVImh6k6f__q-_mowck?usp=sharing">here</a>.
 
+## Model Architecture
+<img src = "assets/model.png">
+
 ## Usage
 - Cloning the Repository: 
 
